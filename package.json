@@ -1,0 +1,29 @@
+{
+    "name": "test-library",
+    "version": "1.0.0",
+    "description": "Our first library for appsmith platform",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "build": "rollup -c"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/eloy-almazan/test-library.git"
+    },
+    "keywords": [
+        "appsmith"
+    ],
+    "author": "eloy",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/eloy-almazan/test-library.git/issues"
+    },
+    "homepage": "https://github.com/eloy-almazan/test-library.git#readme",
+    "devDependencies": {
+        "@rollup/plugin-multi-entry": "^6.0.1",
+        "@rollup/plugin-node-resolve": "^15.2.3",
+        "@rollup/plugin-terser": "^0.4.4",
+        "rollup": "^4.20.0"
+    }
+}
